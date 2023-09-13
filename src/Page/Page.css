@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Page-Root{}
+
+.Navbar-Root{
+    background-color: rgb(180, 180, 180);
+}
+
+.Navbar-Root ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Navbar-Root ul li{
+    margin: auto;
+    padding: 1%;
+}
+
+.Navbar-Root ul li:hover{
+    margin: auto;
+    padding-top: 1%;
+    font-size: 105%;
+    text-decoration: underline;
+}
+
+.Content-Body{
+    display: flex;
+    flex-direction: row;
+}
+
+.Content-Body-Left{
+    border: 1px solid lightgray;
+    width: 15%;
+}
+
+.Content-Body-Center{
+    border: 1px solid lightgray;
+    width: 42.5%;
+}
+
+
+.Content-Body-Left-Pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Content-Body-Left-Pic img{
+    padding-top: 12%;
+    margin: 1%;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.Content-Body-Left-Pic img:hover
+{
+    margin: 1%;
+    max-width: 40%;
+    max-height: 30%;
+}
+
+.Content-Body-Center-Pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Content-Body-Right{
+    border: 1px solid lightgray;
+    width: 42.5%;
+    padding: 50px;
+}
+.Title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Product-Name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Price{
+    font-family: serif;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.Description{
+    font-family: monospace;
+}
+
+.Size-Descriptor{
+    margin: 10px 0 5px 0;
+}
+
+.Size-Buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.Size-Buttons button{
+    background-color: #fff;
+    border: 1px solid gray;
+    width: 50px;
+    height: 25px;
+    margin: 0 7px 0 0;
+    border-radius: 2px;
+}
+
+.Size-Buttons button:hover{
+    background-color: rgb(188, 188, 188);
+}
+
+.Final-Buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.Final-Buttons button{
+    margin-top: 40px;
+    padding: 10px;
+    width: 72%;
+}
